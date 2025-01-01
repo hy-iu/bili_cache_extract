@@ -28,7 +28,6 @@ def process(directory):
     audio = AudioFileClip(mp3)
     video = video.set_audio(audio)
     video.write_videofile(f"{directory}.mp4")
-    # os.execv(r"C:\Users\hy-wu.DESKTOP-G355NC5\AppData\Roaming\bilibili\ffmpeg\ffmpeg.exe", ["ffmpeg", "-i", mp4, "-i", mp3, "-c", "copy", f"{directory}.mp4"])
 
 if __name__ == '__main__':
     directorys = os.listdir()
