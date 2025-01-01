@@ -1,7 +1,7 @@
 # bili_cache_extract
 提取bilibili缓存的视频
 
-需要python环境<https://www.python.org/>
+需要[python环境](https://www.python.org/)
 
 进入缓存目录，放入`test.py`，安装依赖
 ```shell
