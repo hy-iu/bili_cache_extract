@@ -2,6 +2,14 @@
 *.mp3
 *.m4s
 
+# Bilibili Extractor local data
+*.json
+*.xml
+output/
+temp/
+metadata/
+video_catalog.md
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
